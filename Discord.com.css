@@ -1,0 +1,75 @@
+/* Style By Cisco64 Use With Global Dark Mode By Cisco64 */
+/* URLs starting with https://discord.com/channels */
+
+/* Color Variables For Dark Mode */
+.theme-dark {
+    --header-primary: var(--yellow);
+    --header-secondary: var(--gray);
+    --text-normal: var(--white);
+    --text-muted: var(--dark_gray);
+    --text-link: var(--blue);
+    --text-link-low-saturation: var(--blue_l);
+    --text-positive: var(--green);
+    --text-warning: var(--orange);
+    --text-danger: var(--red);
+    --text-brand: hsl(235,calc(var(--saturation-factor, 1)*86.1%),77.5%);
+    --interactive-normal: var(--white);
+    --interactive-hover: var(--white);
+    --interactive-active: var(--white);
+    --interactive-muted: var(--dark_gray);
+    --background-primary: var(--background_0);
+    --background-secondary: var(--background_h);
+    --background-secondary-alt: var(--background_0);
+    --background-tertiary: var(--background_0);
+    --background-accent: var(--background_1);
+    --background-floating: var(--background_h);
+    --background-nested-floating: var(--background_0);
+    --background-mobile-primary: var(--background_1);
+    --background-mobile-secondary: var(--background_0);
+    --background-modifier-hover: rgba(79,84,92,0.16);
+    --background-modifier-active: rgba(79,84,92,0.24);
+    --background-modifier-selected: rgba(79,84,92,0.32);
+    --background-modifier-accent: hsla(0,0%,100%,0.06);
+    --info-positive-text: var(--white);
+    --info-warning-text: var(--white);
+    --info-danger-text: var(--white);
+    --info-help-background: hsla(197,calc(var(--saturation-factor, 1)*100%),47.8%,0.1);
+    --info-help-foreground: hsl(197,calc(var(--saturation-factor, 1)*100%),47.8%);
+    --info-help-text: var(--white);
+    --status-warning-text: #000;
+    --scrollbar-thin-thumb: var(--background_0);;
+    --scrollbar-thin-track: transparent;
+    --scrollbar-auto-thumb: var(--background_0);;
+    --scrollbar-auto-track: hsl(210,calc(var(--saturation-factor, 1)*9.8%),20%);
+    --scrollbar-auto-scrollbar-color-thumb: var(--background_0);;
+    --scrollbar-auto-scrollbar-color-track: #2f3136;
+    --elevation-stroke: 0 0 0 1px rgba(4,4,5,0.15);
+    --elevation-low: 0 1px 0 rgba(4,4,5,0.2),0 1.5px 0 rgba(6,6,7,0.05),0 2px 0 rgba(4,4,5,0.05);
+    --elevation-medium: 0 4px 4px rgba(0,0,0,0.16);
+    --elevation-high: 0 8px 16px rgba(0,0,0,0.24);
+    --logo-primary: var(--white);
+    --control-brand-foreground: hsl(235,calc(var(--saturation-factor, 1)*86.1%),77.5%);
+    --control-brand-foreground-new: hsl(235,calc(var(--saturation-factor, 1)*86.1%),77.5%);
+    --background-mentioned: hsla(38,calc(var(--saturation-factor, 1)*95.7%),54.1%,0.1);
+    --background-mentioned-hover: hsla(38,calc(var(--saturation-factor, 1)*95.7%),54.1%,0.08);
+    --background-message-hover: rgba(4,4,5,0.07);
+    --background-message-automod: hsla(359,calc(var(--saturation-factor, 1)*82.6%),59.4%,0.05);
+    --background-message-automod-hover: hsla(359,calc(var(--saturation-factor, 1)*82.6%),59.4%,0.1);
+    --channels-default: var(--dark_gray);
+    --guild-header-text-shadow: 0 1px 1px rgba(0,0,0,0.4);
+    --channeltextarea-background: var(--background_h);
+    --activity-card-background: var(--background_0);;
+    --textbox-markdown-syntax: #8e9297;
+    --spoiler-revealed-background: #292b2f;
+    --spoiler-hidden-background: var(--background_0);;
+    --deprecated-card-bg: rgba(32,34,37,0.6);
+    --deprecated-card-editable-bg: rgba(32,34,37,0.3);
+    --deprecated-store-bg: var(--background_1);;
+    --deprecated-quickswitcher-input-background: #72767d;
+    --deprecated-quickswitcher-input-placeholder: hsla(0,0%,100%,0.3);
+    --deprecated-text-input-bg: rgba(0,0,0,0.1);
+    --deprecated-text-input-border: rgba(0,0,0,0.3);
+    --deprecated-text-input-border-hover: #040405;
+    --deprecated-text-input-border-disabled: #202225;
+    --deprecated-text-input-prefix: var(--white);
+}

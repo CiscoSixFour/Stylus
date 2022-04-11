@@ -1,0 +1,86 @@
+/* Style By Cisco64 For Use With Global-Dark-Theme */
+/* URLs Starting With: chrome-extension://clngdbkpkpeebahjckkjfobafhncgmne */
+
+/* Header ( Side Panel ) */
+#header {
+    box-shadow: none;
+    border-right: 1px dashed var(--border);
+}
+/* Disabled Text ( Dimmed )*/
+.disabled h2 .style-name-link, .disabled .applies-to {
+    color: var(--gray) !important;
+    fill: var(--red) !important;
+}
+/* Text / Input Boxes */
+input:not([type]),
+input[type="search"] {
+    background: var(--background_h);
+    color: var(--white);
+    border: 1px solid var(--border);
+}
+input, #search, #manage\.newUI\.sort {
+    background: var(--background_h);
+    color: var(--white);
+    border: 1px solid var(--border);
+}
+/* Checkboxes */
+input[type="checkbox"] {
+    color: var(--white) !important;
+    background-color: var(--dark_gray) !important;
+}
+input[type="checkbox"]:hover {
+    background-color: var(--gray) !important;
+}
+.newUI .entry .svg-icon.checked {
+    fill: var(--background_h) !important;
+}
+/* Drop Down Menus + Buttons */
+select, button, filters {
+    background-color: var(--background_1);
+    border: 1px solid var(--border);
+    color: var(--white);
+    background-image: none;
+}
+select:hover, button:hover {
+    background-color: var(--border) !important;
+    border: 1px solid var(--border) !important;
+    color: var(--red) !important;
+    background-image: none !important;
+}
+filters {
+    background-color: var(--red) !important;
+}
+/* Options Menu */
+#options {
+    background: var(--background_h) ;
+    border: 1px solid var(--border) !important;
+    color: var(--white) !important;
+}
+.block {
+    border-bottom: 1px solid var(--border) !important;
+}
+/* Clickable Icons ( ex. Info Icon / Settings Cog ) */
+.newUI .disabled.entry .svg-icon, .svg-icon, .svg-icon.info, .svg-icon.settings {
+    fill: var(--dark_gray);
+}
+.svg-icon, .svg-icon.info, .svg-icon.settings {
+    fill: var(--gray);
+}
+.svg-icon:hover, .svg-icon.info:hover {
+    fill: var(--red);
+}
+.newUI .entry .svg-icon {
+    fill: var(--gray);
+}
+.newUI .entry .svg-icon:hover {
+    fill: var(--red) !important;
+}
+.svg-icon:hover, .svg-icon.info:hover, .svg-icon.settings:hover, .newUI .disabled.entry .svg-icon:hover {
+    fill: var(--cyan);
+}
+.newUI .entry .style-info[data-type=age] {
+    color: var(--gray);
+}
+#add-style-as-usercss-wrapper:not(:hover) input:not(:checked) ~ a svg {
+    fill: var(--gray);
+}

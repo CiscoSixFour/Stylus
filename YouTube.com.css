@@ -1,0 +1,131 @@
+/* Style By Cisco64 For Use With Golbal-Dark-Theme */
+/* URL Starting with: https://www.youtube.com */
+
+:root {
+    --yt-spec-brand-background-solid: #1D2021 !important;
+    --yt-spec-brand-background-primary: #1D2021 !important;
+    --yt-spec-brand-background-secondary: #1D2021;
+    --yt-spec-general-background-a: #282828 !important;
+    --yt-spec-general-background-b: #282828 !important;
+    --yt-spec-general-background-c: #282828 !important;
+    --yt-spec-error-background: #DFBF8E !important;
+    --yt-spec-text-primary: #DFBF8E !important;
+    --yt-spec-text-secondary: #A89984 !important;
+    --yt-spec-text-disabled: #DFBF8E !important;
+    --yt-spec-text-primary-inverse: #1D2021 !important;
+    --yt-spec-call-to-action: #83A598 !important;
+    --yt-spec-call-to-action-inverse: #458588 !important;
+    --yt-spec-suggested-action: #cc241d !important;
+    --yt-spec-icon-active-other: #DFBF8E !important;
+    --yt-spec-icon-inactive: #504945 !important;
+    --yt-spec-icon-disabled: #504945 !important;
+    --yt-spec-badge-chip-background: rgba(255, 255, 255, 0.1);
+    --yt-spec-verified-badge-background: rgba(255, 255, 255, 0.25);
+    --yt-spec-button-chip-background-hover: rgba(255, 255, 255, 0.2);
+    --yt-spec-touch-response: #DFBF8E !important;
+    --yt-spec-touch-response-inverse: #000;
+    --yt-spec-brand-icon-active: #DFBF8E !important;
+    --yt-spec-brand-icon-inactive: #909090;
+    --yt-spec-brand-link-text: #CC241D !important;
+    --yt-spec-wordmark-text: #DFBF8E !important;
+    --yt-spec-10-percent-layer: rgba(255, 255, 255, 0.1);
+    --yt-spec-snackbar-background: #030303;
+    --yt-spec-snackbar-background-updated: #DFBF8E !important;
+    --yt-spec-error-indicator: #ff8983;
+    --yt-spec-themed-blue: #458588 !important;
+    --yt-spec-themed-green: #98971A !important;
+    --yt-spec-ad-indicator: #83A598 !important;
+    --yt-spec-themed-overlay-background: rgba(0, 0, 0, 0.8);
+    --yt-spec-commerce-badge-background: #002d08;
+    --yt-spec-static-brand-red: #f00;
+    --yt-spec-static-brand-white: #DFBF8E !important;
+    --yt-spec-static-brand-black: #1D2021 !important;
+    --yt-spec-static-clear-color: rgba(255, 255, 255, 0);
+    --yt-spec-static-clear-black: rgba(0, 0, 0, 0);
+    --yt-spec-static-ad-yellow: #D79921 !important;
+    --yt-spec-static-grey: #606060;
+    --yt-spec-static-overlay-background-solid: #000;
+    --yt-spec-static-overlay-background-heavy: rgba(0, 0, 0, 0.8);
+    --yt-spec-static-overlay-background-medium: rgba(0, 0, 0, 0.6);
+    --yt-spec-static-overlay-background-medium-light: rgba(0, 0, 0, 0.3);
+    --yt-spec-static-overlay-background-light: rgba(0, 0, 0, 0.1);
+    --yt-spec-static-overlay-text-primary: #DFBF8E !important;
+    --yt-spec-static-overlay-text-secondary: rgba(255, 255, 255, 0.7);
+    --yt-spec-static-overlay-text-disabled: rgba(255, 255, 255, 0.3);
+    --yt-spec-static-overlay-call-to-action: #3ea6ff;
+    --yt-spec-static-overlay-icon-active-other: #DFBF8E !important;
+    --yt-spec-static-overlay-icon-inactive: rgba(255, 255, 255, 0.7);
+    --yt-spec-static-overlay-icon-disabled: rgba(255, 255, 255, 0.3);
+    --yt-spec-static-overlay-button-primary: rgba(255, 255, 255, 0.3);
+    --yt-spec-static-overlay-button-secondary: rgba(255, 255, 255, 0.1);
+    --yt-spec-static-overlay-background-brand: rgba(204, 0, 0, 0.9);
+    --yt-spec-assistive-feed-themed-gradient-1: #005446;
+    --yt-spec-assistive-feed-themed-gradient-2: #39003f;
+    --yt-spec-assistive-feed-themed-gradient-3: #590000;
+    --yt-spec-paper-tab-ink: rgba(255, 255, 255, 0.3);
+    --yt-spec-filled-button-text: #030303;
+    --yt-spec-call-to-action-faded: rgba(62, 166, 255, 0.3);
+    --yt-spec-call-to-action-hover: #6ebcff;
+    --yt-spec-brand-button-background-hover: #990412;
+    --yt-spec-brand-link-text-faded: rgba(255, 78, 69, 0.3);
+    --yt-spec-filled-button-focus-outline: rgba(255, 255, 255, 0.7);
+    --yt-spec-selected-nav-text: #DFBF8E !important;
+}
+html:not(.style-scope)[dark], :not(.style-scope)[dark] {
+    --ytd-searchbox-border-color: hsla(0, 0%, 53.3%, 0.4);
+    --ytd-searchbox-legacy-border-color: hsl(0, 0%, 18.82%);
+    --ytd-searchbox-legacy-border-shadow-color: hsla(0, 0%, 0%, 0);
+    --ytd-searchbox-legacy-button-color: hsla(0, 0%, 100%, 0.08);
+    --ytd-searchbox-legacy-button-border-color: hsl(0, 0%, 18.82%);
+    --ytd-searchbox-legacy-button-focus-color: hsla(0, 0%, 100%, 0.08);
+    --ytd-searchbox-legacy-button-hover-color: hsla(0, 0%, 100%, 0.08);
+    --ytd-searchbox-legacy-button-hover-border-color: hsl(0, 0%, 18.82%);
+    --ytd-searchbox-legacy-button-icon-color: hsla(0, 100%, 100%, 0.5);
+    --ytd-searchbox-background: #1D2021 !important;
+    --ytd-searchbox-text-color: hsla(0, 100%, 100%, 0.88);
+    --yt-spec-brand-background-primary: #1D2021 !important;
+}
+
+/* Fix The Color of Elements Changed by Global Theme */
+/* Floating Video Player Control Panel */
+button:hover {
+    background-color: transparent !important;
+    border: transparent !important;
+    color: var(--white) !Important;
+}
+/* Fixing buttons */
+button, ytd-searchbox[system-icons] #search-icon-legacy.ytd-searchbox yt-icon.ytd-searchbox {
+    color: var(--white);
+}
+.yt-spec-icon-badge-shape, button.yt-icon-button {
+    color: var(--white);    
+}
+.yt-spec-icon-badge-shape:hover, button.yt-icon-button:hover {
+    color: var(--red) !Important;    
+}
+/* Feed Channel Names Under Video Titles */
+a.yt-simple-endpoint.yt-formatted-string {
+    color: var(--yellow) !Important;
+}
+/* Getting rid of border around stuff that shouldn't */
+.content {
+    border: 0px solid var(--border) !Important;
+}
+/* Setting some text */
+ytd-rich-grid-media[mini-mode] #video-title.ytd-rich-grid-media, #text.complex-string.ytd-channel-name, ytd-video-meta-block[rich-meta][mini-mode] #metadata-line.ytd-video-meta-block{
+    font-family: var(--font);
+}
+/* Search dropdown */
+.sbpqs_a, .sbsb_a{
+    background: var(--background_0);
+    color: var(--white); 
+}
+.sbsb_d {
+    background: var(--background_1);
+    color: var(--white);   
+}
+/* Left Panel Icon Fix */
+.guide-icon.ytd-guide-entry-renderer {
+    color: var(--white);
+}
+

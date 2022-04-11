@@ -1,0 +1,111 @@
+/* A Flat, Sharp Global Dark Mode Based on the Gruvbox by Cisco64 */
+/* Applies to : Everything */
+
+/* Set Global Variables To Use In Other Themes */
+
+:root {	
+/* Set 16 Color Scheme Variables [Gruvbox] */
+	--red_l: #FB4934;
+	--red: #CC241D;
+	--green_l: #B8BB26;
+	--green: #98971A;
+	--yellow_l: #FABD2F;
+	--yellow: #D79921;
+	--blue_l: #83A598;
+	--blue: #458588;
+	--magenta_l: #D3869B;
+	--magenta: #B16286;
+	--cyan_l: #8EC07C;
+	--cyan: #689D6A;
+	--orange_l: #FE8019;
+	--orange: #D65D0E;
+	--white: #DFBF8E;
+	--gray: #A89984;
+/* Background Color Variables */
+    --dark_gray: #7C6F64;
+    --darker_gray: #665C54;
+	--border: #504945;
+	--background_1: #3C3836;
+	--background_s: #32302F;
+	--background_0: #282828;
+	--background_h: #1D2021;
+/* Fonts Variables */
+	--font: serif;
+    --font-primary: serif;
+    --font-display: serif;
+    --font-code: Anonymice Nerd Font Mono;
+    --font-headline: serif;
+    }
+/* To-Do List 
+    --font-korean: 
+    --font-japanese: 
+    --font-chinese-simplified: 
+    --font-chinese-traditional: 
+
+/* Main HTML */   
+html {
+    background-color: var(--background_0) !important;
+}
+/* Main Page Body */
+body {
+    font-family: var(--font) !important;
+    color: var(--white);
+    background-color: var(--background_0) !important;
+}
+/* Headers  */
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font) !important;
+    color: var(--white) !important;
+}
+/* Hyperlinks */
+a {
+    color: var(--blue) !important;
+}
+a:hover {
+    color: var(--blue_l) !important;
+}
+.disabled a:hover {
+    color: var(--gray) !important;
+}
+/* Page Elements */
+pre {
+    background-color: var(--background_h);
+    border: var(--border) !important;
+    color: var(--white) !important;
+}
+pre:hover {
+    background-color: var(--background_1);
+    border: var(--border) !important;
+    color: var(--white) !important;
+}
+.content {
+    border: 1px solid var(--border);
+    background-color: var(--background_0);
+    color: var(--white);
+}
+.side-bar {
+    background-color: var(--background_h);
+}
+/* Drop Down Menus + Buttons */
+select, button {
+    background-color: var(--background_1);
+    border: 1px solid var(--border);
+    color: var(--white);
+    background-image: none;
+}
+select:hover, button:hover {
+    background-color: var(--border);
+    border: 1px solid var(--border);
+    color: var(--red);
+    background-image: none;
+}
+.contentContainer {
+    background-color: var(--background_h) !important;
+}
+.p-navigation {
+    background-color: var(--background_h) !important;
+    color: var(--white) !important;
+}
+.main-box, .comment-respond, .prev-next-nav {
+background: var(--background_h);
+}

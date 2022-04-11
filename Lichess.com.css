@@ -1,0 +1,289 @@
+/* Style By Cisco64 For Use With Golbal-Dark-Theme */
+/* URL On The Domain: lichess.org */
+/* URL On The Domain: lishogi.org */
+
+html {
+    font-family: var(--font) !important;
+}
+input,
+textarea,
+select {
+    color: var(--white) !important;
+    background: var(--background_h);
+    border: 1px solid var(--border);
+}
+.form-control:invalid,
+.form-group.is-invalid .form-control {
+    border: var(--red);
+}
+
+/* Header Bar Stuff */
+header #top {
+    color: var(--red) !important;
+}
+/* Lishogi.org Top Right */
+.site-title span,
+.site-title {
+    color: var(--gray) !important;
+    text-shadow: 0 1px 0 var(--background_h);
+}
+.site-title span:hover {
+    color: var(--cyan_l) !important;
+}
+/* Header Bar Nav Menu */
+a {
+  color: var(--blue) !important;
+}
+#topnav section > a {
+    color: var(--gray) !important;
+    text-shadow: 0 1px 0 var(--background_h);
+}
+#topnav section > a:hover {
+    background-color: var(--background_1) !important;
+    color: var(--gray) !important;
+    text-shadow: 0 1px 0 var(--background_h);
+    border-left: 2px solid var(--blue) !important;
+}
+#topnav div {
+    background: var(--background_0);
+    border-left: 2px solid var(--blue);
+}
+#topnav div:hover {
+    background: var(--background_0);
+    border-left: 2px solid var(--blue);
+}
+#topnav div a {
+    background: var(--background_1) !important;
+    color: var(--gray) !important;
+}
+#topnav div a:hover {
+    background: var(--blue) !important;
+    color: var(--dark-gray) !important;
+}
+/* main page game previews */
+.mini-board cg-container cg-pocket .pocket {
+  background: var(--background_1);
+}
+.vstext {
+  background: var(--background_0);
+  color: #bababa;
+}
+.lobby__streams .stream.highlight strong {
+    color: var(--yellow);
+}
+/* Front page donate button */
+.lobby__support a {
+  background: var(--background_0);
+}
+.lobby__support i::before, .lobby__support__text span, .lobby__support__text strong {
+  color: var(--orange);
+}
+/* Lobby - Bottom updates / forum posts */
+.lobby__forum .lobby__box__top, .lobby__blog .lobby__box__top {
+  border-bottom: 1px solid var(--border);
+  background: var(--background_1);
+}
+.lobby__box__top .more, .lobby__blog .post time {
+  color: var(--gray);
+}
+.lobby__box__content {
+  background: var(--background_0);
+}
+/* Right Side Nav Menu Buttons */
+.site-buttons .shown .toggle {
+    background: var(--background_0);
+    text-shadow: 0 1px 0 var(--background_h) !important;
+}
+.button.button-empty:not(.disabled):hover, .button.button-empty.button-green:not(.disabled):hover, .button.button-empty.button-red:not(.disabled):hover, .button.button-metal, #friend_box .friend_box_title, .btn-rack__btn, .btn-rack form {
+    background: var(--background_0);
+    text-shadow: 0 1px 0 var(--background_h);
+}
+.site-buttons .dropdown {
+    background: var(--background_0);
+}
+.site-buttons .signin {
+    margin: 0 1rem;
+}
+
+
+#dasher_app .head {
+    border-color: var(--border);
+}
+#dasher_app .board .zoom {
+    border-color: var(--border);
+}
+#dasher_app .subs {
+    background: var(--background_0) !important;
+    border-top: 1px solid var(--border);
+    border-top-width: 1px;
+    border-top-style: solid;
+    border-top-color: var(--border);
+}
+#dasher_app .links a:hover, #dasher_app .links a:hover::before, #dasher_app .links button:hover, #dasher_app .subs .sub:hover {
+    background: var(--cyan);
+    color: var(--background_h) !Important;
+    opacity: 1;
+}
+#dasher_app .sub::before {
+    color: var(--green);
+}
+#dasher_app .sub::before:hover {
+    color: var(--green);
+}
+#dasher_app .status {
+    border-top: 1px solid var(--border);
+    background: var(--background_h);
+}
+
+
+/* ?? */
+.button.button-empty:not(.disabled):hover,
+.button.button-empty.button-green:not(.disabled):hover,
+.button.button-empty.button-red:not(.disabled):hover,
+.button.button-metal,
+#friend_box .friend_box_title,
+.btn-rack__btn,
+.btn-rack form {
+    background: #282828;
+    border: 1px solid #504945;
+}
+
+/* Main Body */
+body {
+    font-family: var(--font) !important;
+    background: var(--background_h) !important;
+    border: 1px solid var(--border) !important;
+    --board-scale: calc((var(--zoom) / 100) * 0.7 + 0.3);
+}
+
+/* Game Board */
+square.last-move {
+    background-color: rgba(104, 157, 106, 0.41);
+}
+
+/* Center Home Page Logo */
+.lobby__app__content {
+    background: var(--background_0) url("data:image/svg+xml,%3Csvg viewBox='-2 -2 54 54' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill='%23383633' stroke='%23383633' stroke-linejoin='round'%0Atransform='matrix(0.83769177,-0.01116274,0.01395684,0.7948078,7.5072348,6.1385516)' id='path834' d='M 21.695312 -1.6699219 L 21.275391 -1.5234375 L 6.9863281 3.4550781 L 0.32226562 50.433594 L 42.763672 50.9375 L 36.314453 3.6289062 L 21.695312 -1.6699219 z M 21.675781 0.98242188 L 34.041016 5.4648438 L 39.896484 48.402344 L 3.1972656 47.96875 L 9.2480469 5.3144531 L 21.675781 0.98242188 z'/%3E%3C/svg%3E%0A");
+    background-size: 100% 100%;
+
+}
+/* Some Text */
+.tabs-horiz,
+.lobby__counters,
+.lobby__streams .stream,
+.timeline,
+.lobby__about a,
+.timeline .entry a,
+.tabs-horiz span {
+    color: #dfbf8e;
+    font-family: var(--font);
+}
+.content {
+    border: var(--border);
+    background-color: transparent;
+    color: var(--white);
+}
+.copyables .name {
+    color: var(--dark_gray);
+}
+
+/* Login Screen Box */
+.box {
+    background: var(--background_0);
+    border: 1px solid var(--yellow);
+    border-radius: 0px;
+}
+button,
+input,
+optgroup,
+select,
+textarea {
+    outline-color: var(--blue);
+}
+.button {
+    font-family: var(--font);
+    color: var(--white) !important;
+    background: var(--background_1) !Important;
+    border: 1px solid var(--border);
+}
+.button:hover {
+    color: var(--white) !important;
+    background: var(--cyan) !Important;
+}
+/* Lobbys / Corespond Top Center of main page */
+.tabs-horiz span.active {
+    color: var(--orange);
+}
+.tabs-horiz span::after {
+    background: var(--orange);
+    background-color: rgba(214,93,14,0.7);
+
+}
+
+/* during a a game, move history on the right */
+.ceval .bar span {
+    background: var(--green);
+}
+.tview2-column>index {
+    border-right: 1px solid var(--border);
+    background: var(--background_s);
+    color: var(--gray);
+}
+.tview2 move.current {
+    border: 1px solid var(--orange);
+}
+.tview2 move.active {
+    background: var(--background_s);
+}
+.tview2 move:not(.empty):hover, .tview2 move:not(.empty):hover index, .tview2 move:not(.empty):hover eval, .tview2 move:not(.empty):hover movetime {
+    background: var(--blue);
+    color: var(--white);
+}
+.pocket {
+    box-shadow: 0 3px 5px rgb(0 0 0 / 0%) inset;
+    background: var(--background_0);
+}
+.pocket piece::after {
+    background: var(--orange);
+    background-color: var(--orange);
+    color: var(--white);
+    text-shadow: 0 2px 2px var(--background_h) !important;
+}
+.fbt:hover:not(.disabled):not([disabled]) {
+    background: var(--green);
+    color: var(--white_l);
+}
+/* standard button on the left of a game */
+.mselect__label::after {
+    color: var(--blue);
+}
+.mselect__label:hover {
+    background: var(--background_1);
+    color: var(--white);
+}
+.mselect__label, .crosstable, .analyse__tools, #modal-wrap .close:hover, .analyse__clock {
+    box-shadow: 0 2px 2px 0 rgb(0 0 0 / 0%);
+    background: var(--background_0);  
+}
+.mselect__list>*:hover {
+    background: var(--blue);
+}
+.puzzle__side__config__difficulty select {
+    border-radius: 0px;
+}
+/* Create a new game stuff */
+.ui-slider-handle, .ui-widget-header {
+  background: var(--green);
+}
+.ui-slider {
+  background: var(--green) !Important;
+}
+.hook__filters .regular-checkbox:checked {
+  background: var(--green);
+  border-color: var(--green_l);
+}
+.hook__filters .regular-checkbox {
+  -webkit-appearance: none;
+  background: var(--background_h);
+  border: 1px solid var(--border);
+}

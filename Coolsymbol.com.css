@@ -1,0 +1,130 @@
+/* Style By Cisco64 For Use With Golbal-Dark-Theme */
+/* URLs Starting With: https://coolsymbol.com */
+
+.cs {
+    border: 1px solid var(--border);
+    border-color: var(--border) !important;
+    background-color: var(--background_h);
+}
+.cs:hover {
+    border: 1px solid var(--border);
+    border-color: var(--border) !important;
+    background-color: var(--background_1);
+}
+element.style {
+    border-color: var(--white);
+}
+#emoji-info {
+    background-color: var(--background_0);
+    border: 1px solid ;
+}
+#emoji-info-url {
+    color: var(--white);
+}
+input {
+    color: var(--white);
+    background-color: var(--background_h);
+    border-color: var(--border);
+}
+#title_brand {
+    color: var(--red);
+}#title_brand:hover {
+    color: var(--red_l);
+}
+#symbol-message {
+    font-family: var(--font);
+    border-color: var(--border);
+}
+.navbar-default {
+    background-color: var(--background_h);
+    border-color: var(--border);
+}
+.btn {
+    color: var(--white);
+    background-color: var(--background_h);
+    border-color: var(--border);
+}
+.btn:hover {
+    color: var(--white);
+    background-color: var(--background_1);
+    border-color: var(--border);
+}
+#category_list li a {
+    color: var(--cyan);
+}
+#category_list li a:hover {
+    color: var(--cyan_l);
+}
+.nav {
+    color: var(--white);
+    background-color: var(--background_h);
+    border-color: var(--border);
+}
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:hover, .nav-tabs>li.active>a:focus {
+    background-color: var(--background_0);
+    border: 1px solid var(--border);
+}
+.nav-tabs>li>a {
+    color: var(--white);
+    background-color: var(--background_h);
+    border-color: var(--border);
+}
+.nav-tabs>li>a:hover {
+    color: var(--white);
+    background-color: var(--background_0);
+    border-color: var(--border);
+}
+.alt-codes th {
+    color: var(--white);
+    background-color: var(--background_h);
+    border-color: var(--border);
+}
+#non-printing-chars-table.alt-codes th, #non-printing-chars-table.alt-codes td {
+    color: var(--white);
+    background-color: var(--background_h) !important;
+    border-color: var(--border);
+}
+.list-group-item {
+    color: var(--white);
+    background-color: var(--background_h);
+    border-color: var(--border);
+}
+.panel {
+    border: 1px solid var(--border);
+}
+.panel-body {
+    color: var(--white);
+    background-color: var(--background_0);
+    border-color: var(--border);
+}
+.panel-primary>.panel-heading {
+    color: var(--white);
+    background-color: var(--blue);
+    border-color: var(--border);
+}
+.modal-header {
+    color: var(--white);
+    background-color: var(--background_h);
+    border-color: var(--border);
+}
+.modal-body {
+    color: var(--white);
+    background-color: var(--background_0);
+    border-color: var(--border);
+}
+.modal-footer {
+    color: var(--white);
+    background-color: var(--background_h);
+    border-color: var(--border);
+}
+#myModal .close {
+    color: var(--red);
+    text-shadow: 0 1px 0 #000000;
+}
+#myModal .close:hover {
+    color: var(--red_l);
+    text-shadow: 0 1px 0 #000000;
+}
+#insert-emoji-btn, #copy-emoji-btn {
+    width: 200px;
+}
