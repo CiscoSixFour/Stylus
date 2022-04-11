@@ -1,0 +1,154 @@
+/* Style By Cisco64 Use With Global Dark Mode By Cisco64 */
+/* URLs on the domain: archlinux.org */
+
+/* Top-Most Bar / Panel */
+#archnavbar {
+    background: var(--background_0) !important;
+    border-bottom: 5px var(--blue) solid !important;
+}
+#archnavbar ul li.anb-selected a {
+    color: var(--cyan) !important;
+}
+#archnavbar ul#archnavbarlist li a:hover {
+    color: var(--blue_l) !important;
+    text-decoration: underline !important;
+}
+/* Back-Background*/
+body.skin-vector.skin--responsive div.mw-page-container {
+    background-color: var(--background_h);
+}
+/* Searchbar At The Top */
+input {
+    background-color: var(--background_0) !important;
+    border: 1px solid var(--border) !important;
+    color: var(--white) !important;
+}
+/* Nav Bar At The Top */
+nav.vector-menu-tabs li.selected {
+    border: 1px solid var(--border);
+    background-color: var(--background_0);
+}
+.vector-menu-tabs, .vector-menu-tabs a, #mw-head .vector-menu-dropdown h3 {
+    background-image: none;
+}
+/* Drop Down Menu */
+.vector-menu-dropdown .vector-menu-content {
+    background-color: var(--background_h);
+    border: 1px solid var(--border);
+    color: var(--white);
+}
+.vector-menu-dropdown .vector-menu-content:hover {
+    background-color: var(--background_0);
+}
+.vector-user-links .vector-user-menu .vector-user-menu-anon-editor {
+    color: var(--white);
+}
+.vector-user-links .vector-user-menu .vector-user-menu-anon-editor:hover {
+    background-color: var(--background_0);
+}
+/* Headers */
+h1, h2 {
+    border-bottom: 1px solid var(--border);
+}
+/* Main Content */
+#content {
+    background: var(--background_0);
+    border: 1px solid var(--border);
+}
+body {
+    font-family: var(--font) !important;
+    color: var(--white);
+    background-color: var(--background_h) !important;
+}
+/* Contents Box At The Top Of Wiki Articles */
+#toc, .toc, .mw-warning, .toccolours {
+    background-color: var(--background_g);
+    border: 1px solid var(--border);
+}
+.tocnumber {
+    color: var(--gray);
+}
+.toctogglelabel {
+    color: var(--blue);
+}
+.toctogglelabel:hover {
+    color: var(--blue_l);
+}
+.wikitable > tr > th, .wikitable > * > tr > th, .wikitable > tr > th, .wikitable > tr > td, .wikitable > * > tr > th, .wikitable > * > tr > td, div.archwiki-template-box {
+    background-color: var(--background_h) !important;
+    color: var(--white) !important;
+    border: 1px solid var(--border) !important;
+}
+/* Warning Box */
+div.archwiki-template-box.archwiki-template-box-warning {
+    background-color: var(--background_1);
+    color: var(--red) !important;
+    border: 1px solid var(--red) !important;
+}
+/* Side Panl Fixes */
+.vector-menu-portal h3 {
+    background-image: none;
+    border-bottom: 2px solid var(--border);
+}
+/* Related Articles Blob */
+div.archwiki-template-meta-related-articles-start > p {
+    background-color: var(--background_h) !important;
+    border-bottom: 5px solid var(--border) !important;
+    color: var(--white) !important;
+}
+/* Boxes Containing Text */
+pre {
+    background-color: var(--background_h) !important;
+    border: 1px solid var(--border) !important;
+    color: var(--white) !important;
+}
+div.archwiki-template-box.archwiki-template-box-note, div.archwiki-template-box.archwiki-template-box-tip, div.archwiki-template-message {
+    background-color: var(--background_h);
+    border-color: var(--border) !important;
+}
+/* Code Boxes */
+#content code, #content tt {
+    background-color: var(--border);
+    color: var(--red);
+    font-family: var(--font-mono);
+}
+/* Page Links ( In The Body ) */
+#content a:not(.new), header.mw-header li:not(.new) a:not(.new), #mw-navigation li:not(.new) a:not(.new), #mw-panel li:not(.new) a:not(.new), #column-one li:not(.new) a:not(.new), #footer a:not(.new) {
+    text-decoration: none;
+    color: var(--blue) !important;
+}
+#content a:not(.new):hover, header.mw-header li:not(.new) a:not(.new):hover, #mw-navigation li:not(.new) a:not(.new):hover, #mw-panel li:not(.new) a:not(.new):hover, #column-one li:not(.new) a:not(.new):hover, #footer a:not(.new) {
+    text-decoration: underline;
+    color: var(--blue_l) !important;
+}
+/* Footer Info / Navigation */
+.catlinks {
+    background: var(--background_h);
+    border: 1px solid var(--border);
+}
+/* Arch Forum Stuff */
+html, .pun, .punwrap {
+    background: var(--background_h) !important;
+}
+.punwrap, .blockpost, .postmsg, .pun .blockpost h2 {
+    background: var(--background_0) !important;
+    color: var(--white) !important;
+    border: 1px solid var(--border) !important;
+}
+#brdmenu, #brdmenu a:link {
+    background: var(--background_0);
+    border: var(--border) !important;
+}
+.pun .blockpost .postbody, .pun .blockpost .postfoot {
+    background: var(--background_0) !important;
+    border: var(--border) !important;
+}
+/* Arch Wiki Stuff */
+div.box {
+    background: var(--background_0) !important;
+    border: var(--border) !important;
+}
+#pkgdetails #detailslinks > div {
+    background: var(--background_h) !important;
+    border: var(--border) !important;
+}
